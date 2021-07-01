@@ -1,0 +1,21 @@
+:root {
+    --size-of-grid: 30px;
+}
+#container {
+    display:grid;
+    grid-template-columns: repeat(16, var(--size-of-grid));
+    grid-template-rows: repeat(16, var(--size-of-grid));
+}
+
+#resize {
+    background-color: aqua;
+}
+
+.grid {
+    border: 1px solid rgb(59, 153, 117);
+    background-color: rgb(96, 206, 206);
+}
+
+.hover-grid {
+    background-color: rgb(219, 218, 148);
+}
